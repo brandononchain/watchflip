@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b0d10;
+  color: #f5f5f5;
+  font-family: Inter, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.terminal-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background: #111418;
+  border-right: 1px solid #1f242c;
+  padding: 24px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 24px;
+}
+
+.card {
+  background: #151922;
+  border: 1px solid #242b35;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
